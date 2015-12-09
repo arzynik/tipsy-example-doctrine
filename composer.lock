@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arzynik/tipsy-doctrine.git",
-                "reference": "2e0d0bca7c031bb9a853eb6b4fcdbb9596d1305e"
+                "reference": "edbb39e72063cd6081e739adc836be2a87336e5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy-doctrine/zipball/2e0d0bca7c031bb9a853eb6b4fcdbb9596d1305e",
-                "reference": "2e0d0bca7c031bb9a853eb6b4fcdbb9596d1305e",
+                "url": "https://api.github.com/repos/arzynik/tipsy-doctrine/zipball/edbb39e72063cd6081e739adc836be2a87336e5e",
+                "reference": "edbb39e72063cd6081e739adc836be2a87336e5e",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
                 "php",
                 "plugin"
             ],
-            "time": "2015-12-09 17:11:13"
+            "time": "2015-12-09 18:18:54"
         },
         {
             "name": "doctrine/annotations",

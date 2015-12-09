@@ -4,5 +4,9 @@
 	"website": "https://github.com/arzynik/tipsy-doctrine",
 	"repository": "https://github.com/arzynik/tipsy-example-doctrine",
 	"keywords": ["tipsy", "doctrine", "framework"],
-	"logo": "http://tipsy.la/images/cocktail.png"
+	"logo": "http://tipsy.la/images/cocktail.png",
+	"addons": ["heroku-postgresql"],
+	"scripts": {
+		"postdeploy": "vendor/bin/doctrine orm:schema-tool:update --force --dump-sql"
+	}
 }

@@ -1,0 +1,21 @@
+{
+	"name": "arzynik/tipsy-example-doctrine",
+	"description": "An doctrine example for Tipsy",
+	"license": "MIT",
+	"keywords": [
+		"php",
+		"doctrine",
+		"framework",
+		"extension",
+		"plugin"
+	],
+	"require": {
+		"arzynik/tipsy": "dev-master",
+		"arzynik/tipsy-doctrine": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Tipsy\\Doctrine\\Resource\\": "model/"
+		}
+	}
+}

@@ -27,21 +27,17 @@ Tipsy::router()
 		$View->display('home');
 		return;
 
-		$p1 = new \Tipsy\Doctrine\Resource\Product();
-		$p1->setName('test1');
+		/**
+		* if you are more familiar with using doctrine specific code you can do so like below
+		**/
 
-		$p2 = clone $Product;
-		$p2->name = 'test2';
-		$p2->save();
+		$p = new \Tipsy\Doctrine\Resource\Product();
+		$p->setName('test1');
+		$Db->entityManager()->persist($p);
 
-		$p3 = $Product->load(55);
+		echo $p->getId();
 
-		$Db->entityManager()->persist($p1);
-
-		echo $p1->getId();
-		echo $p2->getId();
-return;
-		$s = $Db->query('select * from products where name=?',['test']);
+		$s = $Db->query('select * from products where name=?',['test1']);
 
 		$s->execute();
 		while ($row = $s->fetch(PDO::FETCH_OBJ)) {

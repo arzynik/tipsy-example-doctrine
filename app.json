@@ -1,8 +1,8 @@
 {
 	"name": "Tipsy Doctrine Example",
 	"description": "An example using tipsy and tipsy-doctrine",
-	"website": "https://github.com/arzynik/tipsy-doctrine",
-	"repository": "https://github.com/arzynik/tipsy-example-doctrine",
+	"website": "https://github.com/tipsyphp/tipsy-doctrine",
+	"repository": "https://github.com/tipsyphp/tipsy-example-doctrine",
 	"keywords": ["tipsy", "doctrine", "framework"],
 	"logo": "http://tipsy.la/images/cocktail.png",
 	"addons": ["heroku-postgresql"],

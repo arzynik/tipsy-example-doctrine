@@ -1,5 +1,5 @@
 {
-	"name": "arzynik/tipsy-example-doctrine",
+	"name": "tipsyphp/tipsy-example-doctrine",
 	"description": "An doctrine example for Tipsy",
 	"license": "MIT",
 	"keywords": [
@@ -10,8 +10,8 @@
 		"plugin"
 	],
 	"require": {
-		"arzynik/tipsy": "dev-master",
-		"arzynik/tipsy-doctrine": "dev-master"
+		"tipsyphp/tipsy": "dev-master",
+		"tipsyphp/tipsy-doctrine": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {

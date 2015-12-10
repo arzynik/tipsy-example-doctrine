@@ -4,108 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc62b342227bc50e501b5325a26d56c4",
-    "content-hash": "fd91eca397aa9b74cdea06ce92942a9e",
+    "hash": "63b11153e4f229177d85cadbebeca590",
+    "content-hash": "b09e384b6fb4e55811a3ce9271e09f63",
     "packages": [
-        {
-            "name": "arzynik/tipsy",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/arzynik/tipsy.git",
-                "reference": "4c38b3c116aa243b4261533e4d5007a8f4be74ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy/zipball/4c38b3c116aa243b4261533e4d5007a8f4be74ef",
-                "reference": "4c38b3c116aa243b4261533e4d5007a8f4be74ef",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "satooshi/php-coveralls": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Tipsy\\": "src/"
-                },
-                "files": [
-                    "src/Tipsy.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Devin Smith",
-                    "email": "devin@tipsy.la",
-                    "homepage": "http://devin.la",
-                    "role": "Developer"
-                }
-            ],
-            "description": "An MVW PHP framework",
-            "keywords": [
-                "framework",
-                "mvc",
-                "mvw",
-                "php"
-            ],
-            "time": "2015-12-09 16:45:28"
-        },
-        {
-            "name": "arzynik/tipsy-doctrine",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/arzynik/tipsy-doctrine.git",
-                "reference": "edbb39e72063cd6081e739adc836be2a87336e5e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy-doctrine/zipball/edbb39e72063cd6081e739adc836be2a87336e5e",
-                "reference": "edbb39e72063cd6081e739adc836be2a87336e5e",
-                "shasum": ""
-            },
-            "require": {
-                "arzynik/tipsy": "dev-master",
-                "doctrine/orm": "^2.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Tipsy\\Doctrine\\": "src/"
-                },
-                "files": [
-                    "src/Run.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Devin Smith",
-                    "email": "devin@tipsy.la",
-                    "homepage": "http://devin.la",
-                    "role": "Developer"
-                }
-            ],
-            "description": "An doctrine extension for Tipsy",
-            "keywords": [
-                "doctrine",
-                "extension",
-                "framework",
-                "php",
-                "plugin"
-            ],
-            "time": "2015-12-09 18:18:54"
-        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.7",
@@ -821,14 +722,113 @@
                 "shim"
             ],
             "time": "2015-11-04 20:28:58"
+        },
+        {
+            "name": "tipsyphp/tipsy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tipsyphp/tipsy.git",
+                "reference": "43f0aa5f311a67dd1305e79616220a9e88b1b7ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/43f0aa5f311a67dd1305e79616220a9e88b1b7ff",
+                "reference": "43f0aa5f311a67dd1305e79616220a9e88b1b7ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tipsy\\": "src/"
+                },
+                "files": [
+                    "src/Tipsy.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Devin Smith",
+                    "email": "devin@tipsy.la",
+                    "homepage": "http://devin.la",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An MVW PHP framework",
+            "keywords": [
+                "framework",
+                "mvc",
+                "mvw",
+                "php"
+            ],
+            "time": "2015-12-10 18:36:21"
+        },
+        {
+            "name": "tipsyphp/tipsy-doctrine",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tipsyphp/tipsy-doctrine.git",
+                "reference": "41af6ef55c13b45da9d6650afdf914c254ea4b07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy-doctrine/zipball/41af6ef55c13b45da9d6650afdf914c254ea4b07",
+                "reference": "41af6ef55c13b45da9d6650afdf914c254ea4b07",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": "^2.5",
+                "tipsyphp/tipsy": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tipsy\\Doctrine\\": "src/"
+                },
+                "files": [
+                    "src/Run.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Devin Smith",
+                    "email": "devin@tipsy.la",
+                    "homepage": "http://devin.la",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An doctrine extension for Tipsy",
+            "keywords": [
+                "doctrine",
+                "extension",
+                "framework",
+                "php",
+                "plugin"
+            ],
+            "time": "2015-12-10 18:54:56"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "arzynik/tipsy": 20,
-        "arzynik/tipsy-doctrine": 20
+        "tipsyphp/tipsy": 20,
+        "tipsyphp/tipsy-doctrine": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

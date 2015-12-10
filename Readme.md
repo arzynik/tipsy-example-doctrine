@@ -8,4 +8,4 @@ An example using tipsy and tipsy-doctrine
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
-See [Tipsy Documentation](https://github.com/arzynik/tipsy/wiki) for more information or the [Tipsy Doctrine Plugin](https://github.com/arzynik/tipsy-doctrine).
+See [Tipsy Documentation](https://github.com/tipsyphp/tipsy/wiki) for more information or the [Tipsy Doctrine Plugin](https://github.com/tipsyphp/tipsy-doctrine).

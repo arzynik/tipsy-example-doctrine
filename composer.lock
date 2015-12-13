@@ -729,12 +729,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tipsyphp/tipsy.git",
-                "reference": "673d057802367a36fe3d09ab1862c0eca438ac6c"
+                "reference": "a0afa226d1a8407b677e6f2c149d1ce3b722a52a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/673d057802367a36fe3d09ab1862c0eca438ac6c",
-                "reference": "673d057802367a36fe3d09ab1862c0eca438ac6c",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/a0afa226d1a8407b677e6f2c149d1ce3b722a52a",
+                "reference": "a0afa226d1a8407b677e6f2c149d1ce3b722a52a",
                 "shasum": ""
             },
             "require": {
@@ -771,7 +771,7 @@
                 "mvw",
                 "php"
             ],
-            "time": "2015-12-13 15:35:41"
+            "time": "2015-12-13 15:48:08"
         },
         {
             "name": "tipsyphp/tipsy-doctrine",

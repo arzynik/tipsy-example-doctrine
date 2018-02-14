@@ -621,16 +621,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "fe0e69d7162cba0885791cf7eea5f0d7bc0f897e"
+                "reference": "36d5b41e7d4e1ccf0370f6babe966c08ef0a1488"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/fe0e69d7162cba0885791cf7eea5f0d7bc0f897e",
-                "reference": "fe0e69d7162cba0885791cf7eea5f0d7bc0f897e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/36d5b41e7d4e1ccf0370f6babe966c08ef0a1488",
+                "reference": "36d5b41e7d4e1ccf0370f6babe966c08ef0a1488",
                 "shasum": ""
             },
             "require": {
@@ -685,20 +685,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03 07:38:00"
+            "time": "2018-01-29 09:06:29"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
-                "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
                 "shasum": ""
             },
             "require": {
@@ -710,7 +710,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -744,7 +744,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-10-11 12:05:26"
+            "time": "2018-01-30 19:27:44"
         },
         {
             "name": "tipsyphp/tipsy",
@@ -752,12 +752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tipsyphp/tipsy.git",
-                "reference": "9df772d9885346f8fb80eebad8a8211ef4f7dae6"
+                "reference": "979e3d9e0e5f3299a6524a6f6d4cd401a7fa7b60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/9df772d9885346f8fb80eebad8a8211ef4f7dae6",
-                "reference": "9df772d9885346f8fb80eebad8a8211ef4f7dae6",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/979e3d9e0e5f3299a6524a6f6d4cd401a7fa7b60",
+                "reference": "979e3d9e0e5f3299a6524a6f6d4cd401a7fa7b60",
                 "shasum": ""
             },
             "require": {
@@ -795,7 +795,7 @@
                 "mvw",
                 "php"
             ],
-            "time": "2018-01-23 01:13:20"
+            "time": "2018-01-23 01:23:38"
         },
         {
             "name": "tipsyphp/tipsy-doctrine",
